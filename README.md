@@ -137,8 +137,8 @@ Here are the Performance of various Machine Learning Algorithms on which i train
  ## Accuracy(Left) and Loss(Right) Curves for Neural Network Training
  
   <p float="left">
-    <img src="https://github.com/mv1249/CodeGladiators/blob/main/images/10.PNG" width = "450" height = "450"/>
-    <img src="https://github.com/mv1249/CodeGladiators/blob/main/images/11.PNG" width = "450" height = "450"/> 
+    <img src="https://github.com/mv1249/CodeGladiators/blob/main/images/10.PNG" width = "250" height = "250"/>
+    <img src="https://github.com/mv1249/CodeGladiators/blob/main/images/11.PNG" width = "250" height = "250"/> 
   </p>
 
    

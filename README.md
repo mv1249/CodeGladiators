@@ -113,6 +113,8 @@ all the features,here is the feature contribution and its value
    <img src="https://github.com/mv1249/CodeGladiators/blob/main/images/6.PNG">
 </p>
  
+
+ 
 ## Results 
 
 After selecting the best features,then i moved on for model Building and Hyperparameter Tuning and Then Predictive Modelling using `FAST AI`,here is the image of the 
@@ -124,6 +126,22 @@ Here are the Performance of various Machine Learning Algorithms on which i train
 </p>
  Random Forest Seems Great,but it was not,as it failed in predicting the test data may be due to OverFitting,I selected Decision Tree as the Model,as it gave 
  all the metrics in a Good Number.
+ 
+  After noticing the performance of various models which i displayed above,i went on to try out with Neural Networks,and guess what Neural Network 
+ Outlasted all of them,Neural Network if Regularised in a Proper Manner are the best Machine Learning Models,here is the network summary of my neural network
+ 
+ <p align = "center">
+   <img src="https://github.com/mv1249/CodeGladiators/blob/main/images/12.PNG" >
+</p>
+ 
+ ## Accuracy(Left) and Loss(Right) Curves for Neural Network Training
+ 
+  <p float="left">
+    <img src="https://github.com/mv1249/CodeGladiators/blob/main/images/10.PNG" width = "450" height = "450"/>
+    <img src="https://github.com/mv1249/CodeGladiators/blob/main/images/11.PNG" width = "450" height = "450"/> 
+  </p>
+
+   
  
  #### Initial Counts (Given In Training Data)
  
@@ -141,6 +159,22 @@ This was the initial Count of Conversion Frauds as per the given Data,now lets s
 </p>
 
 Decision Tree Performed Well in comparision to others as we can by the plots,by comparining the initial plots and Final Plots.
+ 
+#### Neural Network Preidctions
+ 
+ Neural Network did a job of almost 88% accuracy in classifiying the people,If trained on more parameters with optimised regularisation,Neural Network Can Perform
+ Even better than other models,after all if more data and more training samples are provided to Neural Net it performs the best ! :)
+ 
+ <p align = "center">
+   <img src="https://github.com/mv1249/CodeGladiators/blob/main/images/13.PNG">
+</p>
+ 
+ # Result
+  
+  ##### Decision Tree - 84.3%
+ 
+  ##### Neural Network - 88%
+ 
  
 ## Libraries Used
  

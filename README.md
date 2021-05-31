@@ -106,10 +106,51 @@ all the features,here is the feature contribution and its value
 <p align = "center">
    <img src="https://github.com/mv1249/CodeGladiators/blob/main/images/4.PNG">
 </p>
+ 
+## Final Overview of Model
+ 
+ <p align = "center">
+   <img src="https://github.com/mv1249/CodeGladiators/blob/main/images/6.PNG">
+</p>
+ 
+## Results 
 
 After selecting the best features,then i moved on for model Building and Hyperparameter Tuning and Then Predictive Modelling using `FAST AI`,here is the image of the 
-`value_counts` of the `conversion_fraud` column,
-
-<p align = "center">
-   <img src="">
+`value_counts` of the `conversion_fraud` column
+ 
+Here are the Performance of various Machine Learning Algorithms on which i trained my Data
+ <p align = "center">
+   <img src="https://github.com/mv1249/CodeGladiators/blob/main/images/9.PNG">
 </p>
+ Random Forest Seems Great,but it was not,as it failed in predicting the test data may be due to OverFitting,I selected Decision Tree as the Model,as it gave 
+ all the metrics in a Good Number.
+ 
+ #### Initial Counts (Given In Training Data)
+ 
+ <p align = "center">
+   <img src="https://github.com/mv1249/CodeGladiators/blob/main/images/7.PNG">
+</p>
+ 
+This was the initial Count of Conversion Frauds as per the given Data,now lets see how does the Model Predict on it,Training data had 966 Rows,where as Testing Data
+ nealy 450 rows.
+ 
+ #### Final Counts (Prediction Stage,Testing the Model on Testing Data)
+ 
+ <p align = "center">
+   <img src="https://github.com/mv1249/CodeGladiators/blob/main/images/1.PNG">
+</p>
+
+Decision Tree Performed Well in comparision to others as we can by the plots,by comparining the initial plots and Final Plots.
+ 
+## Libraries Used
+ 
+ <code><img height="30" src="https://raw.githubusercontent.com/numpy/numpy/7e7f4adab814b223f7f917369a72757cd28b10cb/branding/icons/numpylogo.svg"></code>
+<code><img height="30" src="https://raw.githubusercontent.com/pandas-dev/pandas/761bceb77d44aa63b71dda43ca46e8fd4b9d7422/web/pandas/static/img/pandas.svg"></code>
+<code><img height="30" src="https://matplotlib.org/_static/logo2.svg"></code>
+<code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1280px-Scikit_learn_logo_small.svg.png"></code>
+ <code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1200px-Tensorflow_logo.svg.png"></code>
+ 
+ 
+ 
+
+

@@ -22,7 +22,7 @@
             (Use click log data for additional data required for identifying conversion fraud)</div>
         <div><br></div>
         <div><b>Essential Columns</b>
-            < /div>
+            </div>
                 <div>
                     <ul>
                         <li>client id: Advertiser ID</li>

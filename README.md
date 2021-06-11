@@ -173,7 +173,7 @@ Decision Tree Performed Well in comparision to others as we can by the plots,by 
   
   ##### Decision Tree - 84.3%
  
-  ##### Neural Network - 88%
+  ##### Neural Network - 90%
  
  
 ## Libraries Used
